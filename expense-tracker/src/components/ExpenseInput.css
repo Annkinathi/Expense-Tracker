@@ -1,0 +1,23 @@
+/* src/ExpenseInput.css */
+.expense-input input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .expense-input button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .expense-input button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

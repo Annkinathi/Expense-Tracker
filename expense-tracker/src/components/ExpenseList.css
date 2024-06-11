@@ -1,0 +1,36 @@
+/* src/ExpenseList.css */
+.expense-list {
+  margin-top: 10px; /* Reduced margin */
+  background-color: #007bff; /* Blue background color for the list */
+  padding: 10px;
+  border-radius: 5px;
+  overflow-y: auto; /* Add vertical scroll if needed */
+  max-height: 500px; /* Constrain the height */
+}
+
+.expense-item {
+  display: grid; /* Use CSS Grid for alignment */
+  grid-template-columns: 1.5fr 1.25fr 1.25fr; /* Adjusted column widths */
+  align-items: center; /* Center the items vertically */
+  gap: 5px; /* Add gap between items */
+  font-size: 12px; /* Smaller font size */
+  padding: 5px 0; /* Reduced padding */
+}
+
+.expense-item:nth-child(even) {
+  background-color: #f9f9f9; /* Light gray background for even rows */
+}
+
+.expense-item .description {
+  text-align: left;
+}
+
+.expense-item .amount {
+  text-align: center;
+}
+
+.expense-item .date {
+  text-align: center;
+  font-size: 10px; /* Smaller font size for date and time */
+  word-wrap: break-word; /* Allow wrapping if needed */
+}

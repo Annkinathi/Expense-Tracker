@@ -1,0 +1,15 @@
+/* src/ExpenseTracker.css */
+.expense-tracker {
+  font-family: 'Arial', sans-serif;
+  padding: 10px; /* Reduced padding */
+  background-color: #d3d3d3; /* Light grey background color */
+  color: #000; /* Black text color */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid purple; /* Thicker purple border */
+  width: 300px; /* Narrow width */
+  height: 600px; /* Taller height */
+  box-sizing: border-box; /* Ensure padding is included in height/width */
+}
